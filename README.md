@@ -57,8 +57,8 @@ from (select customerid,
 ;
 ```
 
+If we use the dataset from the code above to calculate RFM, it will calculate the RFM metrics only for 2013 orders up to January 1, 2014.
 ```sql
--- if we use the dataset from the code above to calculate RFM, it will calculate the RFM metrics only for 2013 orders up to January 1, 2014.
 -- Declare variables for recency, frequency, and monetary percentiles
 --- decare variables for recency
 declare @percentile_20_r decimal(10,2);
@@ -148,7 +148,29 @@ FROM RFM_Scores
 ORDER BY rfm DESC; 
 ```
 
+Code filter and select only the customers from the outer query who fall into specific category
 ```sql
---Cleanup
+-- Example: rfm = 555, VIP Customers
+WHERE customerid IN (
+    SELECT customerid
+    FROM RFM_Scores
+	WHERE rb = 5 AND fb = 5 AND mb = 5);
+```
+
+And this code is to filter for a specific segment (e.g., "Big Spenders") but also exclude customers in other segments like "VIP Customers", "Loyal Customers", and "Potential Loyalists."
+```sql
+WHERE customerid IN (
+    SELECT customerid
+    FROM RFM_Scores
+    WHERE rb <= 3 AND fb >= 4 AND mb >= 4  -- Big Spenders condition (this can change to any segment you want to extract customerID)
+)
+AND NOT (rb = 5 AND fb = 5 AND mb = 5)  -- Exclude VIP Customers
+AND NOT (rb >= 4 AND fb >= 4 AND mb >= 4) -- Exclude Loyal Customers
+AND NOT (rb = 4 AND fb <= 3 AND mb <= 3) -- Exclude Potential Loyalists
+ORDER BY customerid;
+```
+
+Clean up
+```sql
 DROP TABLE RFM_RawData;
 ```
