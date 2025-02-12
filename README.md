@@ -8,6 +8,8 @@ RFM analysis is a basic model for customer segmentation or customer segmentation
 
 ## Objectives:
 
+This project aims to perform RFM analysis using SQL on the AdventureWorks dataset to segment customers based on their purchasing behavior. By analyzing recency, frequency, and monetary value, it identifies key customer groups such as VIPs, Loyal Customers, and At-Risk Customers. The insights gained will help optimize retention strategies, enhance customer engagement, and improve marketing efforts. Using SQL for automation ensures a scalable and efficient approach to customer segmentation and decision-making.
+
 ## Project Structure:
 1. Identify Customer Segments:
 - Recency (R): How recently did the customer make a purchase? Customers who 
@@ -18,6 +20,10 @@ bought recently are more likely to buy again.
 2. Focus on the Right Marketing Tactics:
 By analyzing each segment’s behavior, you can direct marketing efforts where 
 they will be most effective.
+
+3. To use bak file in mssql:
+- Save the file in C disk
+- open tthe file in mssql: go to database -> restore database -> device -> three dots (...)  -> add -> C disk -> find the file -> Ok -> Ok -> done 
 
 ---
 
