@@ -2,7 +2,7 @@
 
 ## Project Overview: 
 
-Dataset: AdventureWorks2022.bak 
+Dataset: AdventureWorks2022.bak (https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
 
 RFM analysis is a basic model for customer segmentation or customer segmentation based on customer buying behavior. By doing this, you gain insights into which customers are the most valuable to your business, how recently they interacted with your business, how often they make purchases, and how much they spend.
 
