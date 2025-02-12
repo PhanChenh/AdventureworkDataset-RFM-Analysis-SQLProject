@@ -21,10 +21,14 @@ they will be most effective.
 
 ---
 
+Retrieves all columns and rows from the SalesOrderHeader table in the sales schema.
 ```sql
 select * from sales.SalesOrderHeader;
 ```
 
+Computed RFM metrics along with percentile-based segmentation for further analysis:
+- Calculates RFM Metrics for each customerid
+- Ranks Customers using Percentiles & Quintiles
 ```sql
 select h. *,
 	ntile(5) over (order by recency) as n_tile_recency,
