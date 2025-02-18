@@ -65,22 +65,14 @@ Figure 1: Sample RFM Results
 
 ## Recommendation
 
-1. VIP Customers (R = 5, F = 5, M = 5)
-  Offer exclusive perks, personalized engagement, premium support, and referral incentives.
-2. Loyal Customers (R = 4-5, F = 4-5, M = 4-5)
-  Enhance loyalty programs, upsell, provide exclusive offers, and maintain consistent communication.
-3. Potential Loyalists (R = 4, F = 1-3, M = 1-3)
-  Encourage repeat purchases, educate with content, offer time-sensitive promotions, and personalized outreach.
-4. Big Spenders (R = 5, F = 4-5, M = 4-5)
-  Offer premium product discounts, exclusive perks, event invitations, and FOMO-driven deals.
-5. Promising Customers (R = 3-4, F = 4, M = 1-3)
-  Increase engagement with targeted campaigns, bundle deals, and promotions to boost spending.
-6. At Risk Customers (R = 3, F = 1-3, M = 1-3)
-  Use win-back campaigns, personalized incentives, surveys, and retargeting ads.
-7. Churned Customers (R = 1-2, F = 1-2, M = 1-2)
-  Reactivate with strong incentives, feedback loops, re-engagement emails, and personalized recommendations.
-8. Other Segments (Mixed R, F, M)
-  Provide targeted promotions, general engagement, and track behavior to move customers to higher-value segments.
+1. VIP Customers (R = 5, F = 5, M = 5): Offer exclusive perks, personalized engagement, premium support, and referral incentives.
+2. Loyal Customers (R = 4-5, F = 4-5, M = 4-5): Enhance loyalty programs, upsell, provide exclusive offers, and maintain consistent communication.
+3. Potential Loyalists (R = 4, F = 1-3, M = 1-3): Encourage repeat purchases, educate with content, offer time-sensitive promotions, and personalized outreach.
+4. Big Spenders (R = 5, F = 4-5, M = 4-5): Offer premium product discounts, exclusive perks, event invitations, and FOMO-driven deals.
+5. Promising Customers (R = 3-4, F = 4, M = 1-3): Increase engagement with targeted campaigns, bundle deals, and promotions to boost spending.
+6. At Risk Customers (R = 3, F = 1-3, M = 1-3): Use win-back campaigns, personalized incentives, surveys, and retargeting ads.
+7. Churned Customers (R = 1-2, F = 1-2, M = 1-2): Reactivate with strong incentives, feedback loops, re-engagement emails, and personalized recommendations.
+8. Other Segments (Mixed R, F, M): Provide targeted promotions, general engagement, and track behavior to move customers to higher-value segments.
 
 ## Contact
 
