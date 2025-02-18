@@ -7,7 +7,7 @@
 - [Analysis Approach](#analysis-approach)
 - [Association Rule Metrics](#Association-Rule-Metrics)
 - [Key Findings](#key-findings)
-- [How to Use](#how-to-use)
+- [How to run code](#how-to-run-code)
 - [Technologies Used](#technologies-used)
 - [Results](#results)
 - [Recommendation](#recommendation)
@@ -49,7 +49,7 @@ This project aims to perform RFM analysis using SQL on the AdventureWorks datase
 
 In this RFM project, we will identify which customers fall into key segments such as VIP Customers, Loyal Customers, and others segments based on their Recency, Frequency, and Monetary scores like in [RFM Segment](RFM_Segments.xlsx). This analysis will help pinpoint the most valuable customers, as well as those who may need targeted engagement to boost loyalty and spending.
 
-## How to use
+## How to run code 
 1. Restore database in SSMS as guided in Mirosoft Learn [Restore to SQL Server](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
 2. Using SQL Server Management Studio (SSMS) to execute SQL queries
 
