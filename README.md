@@ -15,11 +15,21 @@
 
 ## Overview:
 
+This project aims to perform RFM (Recency, Frequency, Monetary) analysis on the AdventureWorks2022 dataset, using SQL to segment customers based on their purchasing behavior. By evaluating recency, frequency, and monetary value of customer interactions, the project seeks to uncover actionable insights for customer segmentation and retention strategies. The RFM model allows businesses to identify valuable customers, develop targeted marketing strategies, and enhance customer engagement.
 
+## Dataset
 
+The analysis is based on the AdventureWorks2022, obtained from Microsoft Learn:
 
+🔗 AdventureWorks sample Databases
+- Source: [Microsoft Learn](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorks2022.bak)
+- Time Period Covered: 2011-2014
 
+This dataset contains transactional data from AdventureWorks, a fictional retail company, including sales, products, and customer orders.
 
+## Objective
+
+This project aims to perform RFM analysis using SQL on the AdventureWorks dataset to segment customers based on their purchasing behavior. By analyzing recency, frequency, and monetary value, it identifies key customer groups such as VIPs, Loyal Customers, and At-Risk Customers. The insights gained will help optimize retention strategies, enhance customer engagement, and improve marketing efforts. Using SQL for automation ensures a scalable and efficient approach to customer segmentation and decision-making.
 
 ----------------
 
