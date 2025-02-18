@@ -31,6 +31,22 @@ This dataset contains transactional data from AdventureWorks, a fictional retail
 
 This project aims to perform RFM analysis using SQL on the AdventureWorks dataset to segment customers based on their purchasing behavior. By analyzing recency, frequency, and monetary value, it identifies key customer groups such as VIPs, Loyal Customers, and At-Risk Customers. The insights gained will help optimize retention strategies, enhance customer engagement, and improve marketing efforts. Using SQL for automation ensures a scalable and efficient approach to customer segmentation and decision-making.
 
+## Analysis Approach
+1. Customer Segmentation:
+- Recency (R): Measures how recently a customer made a purchase. Customers who have made recent purchases are more likely to buy again.
+- Frequency (F): Tracks how often a customer makes a purchase. Frequent buyers tend to show more loyalty and engagement.
+- Monetary (M): Assesses the amount of money a customer spends. High spenders contribute significantly to the business's profitability.
+2. RFM Scoring:
+- The customers are scored for each of the three dimensions (Recency, Frequency, Monetary), with scores from 1 to 5, where 5 represents the best behavior.
+3. Segmenting Customers:
+- Customers are divided into distinct groups based on their RFM scores (e.g., VIP Customers, Loyal Customers, At-Risk Customers) like in 
+Targeted Marketing Strategies:
+
+Develop strategies tailored to each segment based on their specific behaviors and potential value.
+
+
+
+
 ----------------
 
 ## Project Overview: 
