@@ -56,6 +56,12 @@ In this RFM project, we will identify which customers fall into key segments suc
 ## Technologies Used
 - SQL code: SQL queries were used to preprocess data, calculate Recency, Frequency, and Monetary scores, segment customers, and identify patterns in customer behavior, enabling effective customer segmentation and targeted marketing strategies.
 
+## Results 
+- The results are stored in the file [RFM result](RFM_result.csv)
+
+![RFM_result](https://github.com/user-attachments/assets/2d1069d8-e131-4605-9502-eed87e979bef)
+Figure 1: Sample RFM Results
+
 
 ----------------
 
