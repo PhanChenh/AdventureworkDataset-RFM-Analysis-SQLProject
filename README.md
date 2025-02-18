@@ -39,12 +39,22 @@ This project aims to perform RFM analysis using SQL on the AdventureWorks datase
 2. RFM Scoring:
 - The customers are scored for each of the three dimensions (Recency, Frequency, Monetary), with scores from 1 to 5, where 5 represents the best behavior.
 3. Segmenting Customers:
-- Customers are divided into distinct groups based on their RFM scores (e.g., VIP Customers, Loyal Customers, At-Risk Customers) like in 
-Targeted Marketing Strategies:
+- Customers are divided into distinct groups based on their RFM scores (e.g., VIP Customers, Loyal Customers, At-Risk Customers) like in [RFM Segment](RFM_Segments.xlsx)
+4. Interpret Results:
+- Analyze segment behavior to uncover patterns and opportunities.
+5. Recommendations:
+- Develop strategies tailored to each segment based on their specific behaviors and potential value.
 
-Develop strategies tailored to each segment based on their specific behaviors and potential value.
+## Key Findings
 
+In this RFM project, we will identify which customers fall into key segments such as VIP Customers, Loyal Customers, and others segments based on their Recency, Frequency, and Monetary scores like in [RFM Segment](RFM_Segments.xlsx). This analysis will help pinpoint the most valuable customers, as well as those who may need targeted engagement to boost loyalty and spending.
 
+## How to use
+1. Restore database in SSMS as guided in Mirosoft Learn [Restore to SQL Server](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
+2. Using SQL Server Management Studio (SSMS) to execute SQL queries
+
+## Technologies Used
+- SQL code: SQL queries were used to preprocess data, calculate Recency, Frequency, and Monetary scores, segment customers, and identify patterns in customer behavior, enabling effective customer segmentation and targeted marketing strategies.
 
 
 ----------------
