@@ -60,6 +60,7 @@ In this RFM project, we will identify which customers fall into key segments suc
 - The results are stored in the file [RFM_result.csv](RFM_result.csv)
 
 ![RFM_result](https://github.com/user-attachments/assets/2d1069d8-e131-4605-9502-eed87e979bef)
+
 Figure 1: Sample RFM Results
 
 ## Recommendation
