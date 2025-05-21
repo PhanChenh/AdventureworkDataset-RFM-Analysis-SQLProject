@@ -1,4 +1,4 @@
-# Projcet Title: RFM Analysis Using SQL on the AdventureWorks Dataset (2011-2014)
+# Project Title: RFM Analysis Using SQL on the AdventureWorks Dataset (2011-2014)
 
 ## Table of Contents
 - [Overview](#overview)
